@@ -1,0 +1,19 @@
+{
+    "Index": {
+      "title": "Merhaba Dünya!",
+      "alertMessage": "Birşey ters gitti!",
+      "username": "Kullanıcı Adı",
+      "signIn" :"Giriş Yap",
+      "sign_in": "Giriş Yap",
+      "sign_up": "Kayıt Ol",
+      "email": "Email Adresi",
+      "password": "Şifre",
+      "remember_me": "Beni Hatırla",
+      "forgot_password": "Şifremi Unuttum",
+      "donthaveaccount": "Hesabın Yok Mu? Kayıt Ol",
+      "doyouhaveaccount": "Hesabın Var Mı? Giriş Yap",
+      "send": "Gönder",
+      "reset_password": "Şifre Sıfırla",
+      "page": "Sayfa"
+    }
+  }
