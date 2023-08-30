@@ -3,6 +3,7 @@ import Link from 'next-intl/link';
 
 export default function Index() {
     const t = useTranslations('Index');
+
     const fethcUser = async (id: string) => {
         const req = await fetch('http://localhost:3000/api/search');
         const data = await req.json();

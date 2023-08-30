@@ -1,0 +1,47 @@
+{
+    "people":[
+        {
+            "id":"1",
+            "name":"Luke Skywalker",
+            "height":"172",
+            "mass":"77"
+        },
+        {
+            "id":"2",
+            "name":"Leia Skywalker",
+            "height":"160",
+            "mass":"77"
+        },
+        {
+            "id":"3",
+            "name":"Luke Skywalker",
+            "height":"172",
+            "mass":"77"
+        },
+        {
+            "id":"4",
+            "name":"Luke Skywalker",
+            "height":"172",
+            "mass":"77"
+        },
+        {
+            "id":"5",
+            "name":"Luke Skywalker",
+            "height":"172",
+            "mass":"77"
+        },
+        {
+            "id":"6",
+            "name":"R2-D2",
+            "height":"172",
+            "mass":"77"
+        },
+        {
+            "id":"7",
+            "name":"Anakin Skywalker",
+            "height":"180",
+            "mass":"77"
+        }
+
+    ]
+}
