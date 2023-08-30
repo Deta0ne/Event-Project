@@ -1,6 +1,5 @@
 'use client';
 import React from 'react';
-import Button from '@mui/material/Button';
 import { useTranslations } from 'next-intl';
 import Link from 'next-intl/link';
 import { usePathname } from 'next/navigation';
@@ -10,6 +9,7 @@ const Header = () => {
     const pathname = usePathname();
 
     const removeLanguageCode = (url: any) => {
+        console.log(url);
         return url.startsWith('/tr/') ? url.slice(3) : '/';
     };
 
@@ -22,9 +22,11 @@ const Header = () => {
                     In English
                 </Link>
                 <br />
-                <Link href={turkishHref} locale="tr">
+                <Link href={turkishHref.substring(0, 3) === '/tr' ? '' : turkishHref} locale="tr">
                     In Turkish
                 </Link>
+                <br />
+                <Link href="/">Home</Link>
             </div>
         </div>
     );
