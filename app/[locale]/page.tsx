@@ -1,18 +1,16 @@
 import { useTranslations } from 'next-intl';
 import Link from 'next-intl/link';
+import { store } from '@/stores';
+import { fethcPokes } from '@/stores/poke-store';
 
 export default function Index() {
     const t = useTranslations('Index');
 
-    const fethcUser = async (id: string) => {
-        const req = await fetch('http://localhost:3000/api/search');
-        const data = await req.json();
-        console.log(data[id]);
-    };
-    fethcUser('0');
+    store.dispatch(fethcPokes('2'));
     return (
         <div>
             <div>
+                <h1>{`${store.getState().poke.pokemons.name}`} </h1>
                 <br />
                 <br />
                 <Link href="/sign-in">{t('sign_in')} </Link>

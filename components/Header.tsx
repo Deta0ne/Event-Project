@@ -9,7 +9,6 @@ const Header = () => {
     const pathname = usePathname();
 
     const removeLanguageCode = (url: any) => {
-        console.log(url);
         return url.startsWith('/tr/') ? url.slice(3) : '';
     };
 
