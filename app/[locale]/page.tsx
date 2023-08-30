@@ -13,14 +13,6 @@ export default function Index() {
     return (
         <div>
             <div>
-                <Link href="/" locale="en">
-                    In English
-                </Link>
-                <br />
-                <br />
-                <Link href="/" locale="tr">
-                    In Turkish
-                </Link>
                 <br />
                 <br />
                 <Link href="/sign-in">{t('sign_in')} </Link>
