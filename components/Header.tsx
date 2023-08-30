@@ -10,7 +10,7 @@ const Header = () => {
 
     const removeLanguageCode = (url: any) => {
         console.log(url);
-        return url.startsWith('/tr/') ? url.slice(3) : '/';
+        return url.startsWith('/tr/') ? url.slice(3) : '';
     };
 
     const englishHref = removeLanguageCode(pathname);
